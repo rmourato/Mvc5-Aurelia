@@ -26,6 +26,10 @@ namespace Mvc5_Aurelia
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Aurelia/styles").Include(
+                      "~/Aurelia/jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.min.css",
+                      "~/Aurelia/styles/styles.css"));
         }
     }
 }

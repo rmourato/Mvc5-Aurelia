@@ -181,6 +181,18 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aurelia\src\app.html" />
+    <Content Include="Aurelia\src\app.js" />
+    <Content Include="Aurelia\src\blur-image.js" />
+    <Content Include="Aurelia\src\child-router.html" />
+    <Content Include="Aurelia\src\child-router.js" />
+    <Content Include="Aurelia\src\main.js" />
+    <Content Include="Aurelia\src\nav-bar.html" />
+    <Content Include="Aurelia\src\users.html" />
+    <Content Include="Aurelia\src\users.js" />
+    <Content Include="Aurelia\src\welcome.html" />
+    <Content Include="Aurelia\src\welcome.js" />
+    <Content Include="Aurelia\styles\styles.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -189,6 +201,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Aurelia\src\.eslintrc" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -239,7 +252,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Aurelia\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
