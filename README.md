@@ -13,4 +13,4 @@ ASP.NET MVC 5 + Aurelia base project
 
 Open the solution in VS 2015 and hit F5.
 
-Navigate to 'http://localhost:<port>/Aurelia/Index' to load the Aurelia application.
+Navigate to 'http://localhost:PORT/Aurelia/Index' to load the Aurelia application.
